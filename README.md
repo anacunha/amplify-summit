@@ -8,7 +8,7 @@ Modify `src/App.js` to create a new Pet:
 
 ```javascript
 import { DataStore } from '@aws-amplify/datastore';
-import { Pet } from './models';
+import { Pet, Sex, Size } from './models';
 
 function App() {
   const addPet = async() => {
@@ -31,4 +31,5 @@ function App() {
 }
 
 export default App;
+
 ```
