@@ -69,7 +69,7 @@ export default App;
 
 Login in the browser and then go back to the terminal to configure your app:
 
-```shell
+```
 ? Choose your default editor: Visual Studio Code
 ? Choose the type of app that you're building javascript
 Please tell us about your project
