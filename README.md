@@ -113,6 +113,29 @@ export default App;
 
 ## Content
 
+### Pets
+
+
+| Name              | Description                                     | Photo                                                                                           | Type |
+| ----------------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---- |
+| Basil             | A cat that likes to sleep                       | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Basil.jpg             | CAT  |
+| Boris             | An observing cat                                | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Boris-cat.jpg         | CAT  |
+| Boris             | A senior, loving Schnauzer                      | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Boris-dog.jpg         | DOG  |
+| Chips             | Guilty looking dog, might seat on your sofa     | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Chips.jpg             | DOG  |
+| Chuby             | Also known as Chewbacca                         | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Chuby.jpeg            | DOG  |
+| Dali              | Dalí, the cat, not the painter 🎨               | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Dali.png              | CAT  |
+| Garfield          | Orange cat, might eat your lasagna 🍝           | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Garfield.jpg          | CAT  |
+| Gremlina          | Named after the Gremlins 🐈‍⬛                     | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Gremlina.png          | CAT  |
+| Lambeau & Fortuna | Festive dogs 🎄                                 | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Lambeau%2BFortuna.jpg | DOG  |
+| Milka             | Named after the chocolate 🍫                    | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Milka.jpg             | DOG  |
+| Moka              | AWS Community Builder and your next best friend | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Moka.jpg              | DOG  |
+| Newman & Eve      | Siblings that get along just fine 🐱🐱           | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Newman%2BEve.jpg     | CAT  |
+| Pérola            | Dog or racoon? 🦝                               | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Perola.jpg            | DOG  |
+| Sunny             | Enjoys baths and sunny days 🛁☀️                 | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Sunny.jpg             | DOG  |
+| Tempestade        | Adorable, but no one can tame her 🌪            | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Tempestade.jpg        | CAT  |
+| Theo              | A very sleepy dog                               | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Theo.jpg              | DOG  |
+| Twinkle           | The most adorable cat you will ever met         | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Twinkle.jpg           | CAT  |
+
 ## User Interface
 
 ```shell
