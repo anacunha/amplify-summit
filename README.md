@@ -59,16 +59,15 @@ Modify `src/App.js` to create a new Pet:
 
 ```javascript
 import { DataStore } from '@aws-amplify/datastore';
-import { Pet, Sex, Size } from './models';
+import { Pet, PetType } from './models';
 
 function App() {
 
   const addPet = async() => {
     const newPet = await DataStore.save(new Pet({
       "name": prompt('Name'),
-      "picture": prompt('Picture'),
-      "sex": Sex.FEMALE,
-      "size": Size.MEDIUM,
+      "photo": prompt('Photo'),
+      "petType": PetType.DOG,
     }));
 
     console.log(newPet);
@@ -91,7 +90,7 @@ We will use React's [`useEffect`](https://reactjs.org/docs/hooks-effect.html) to
 ```javascript
 import { DataStore } from '@aws-amplify/datastore';
 import { useEffect } from 'react';
-import { Pet, Sex, Size } from './models';
+import { Pet, PetType } from './models';
 
 function App() {
 
