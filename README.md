@@ -2,9 +2,28 @@
 
 ## Data Modeling
 
+Access the Amplify Sandbox at [https://sandbox.amplifyapp.com/](https://sandbox.amplifyapp.com/) to ceate your data model.
+
 ## Test Locally
 
+### Create a React app
+
+```shell
+npx create-react-app@latest adopt-a-pet
+cd adopt-a-pet
+```
+
+### Install Amplify CLI
+
+```shell
+curl -sL https://aws-amplify.github.io/amplify-cli/install | bash && $SHELL
+```
+
 ### Pull from Sandbox
+
+```shell
+amplify pull --sandboxId <sandboxId>
+```
 
 ### Create new Pet
 
