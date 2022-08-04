@@ -160,3 +160,15 @@ Amplify.configure(awsconfig);
 ```
 
 ## Authentication
+
+Add authentication:
+
+````shell
+amplify add auth
+```
+
+Push changes to the cloud:
+
+```shell
+amplify push
+```
