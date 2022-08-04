@@ -2,11 +2,11 @@
 
 ## Data Modeling
 
+### Create Data Model
+
 Access the Amplify Sandbox at [https://sandbox.amplifyapp.com/](https://sandbox.amplifyapp.com/) to ceate your data model.
 
 ![Data model on Amplify Studio](data-model.png)
-
-## Test Locally
 
 ### Create a React app
 
@@ -26,6 +26,32 @@ curl -sL https://aws-amplify.github.io/amplify-cli/install | bash && $SHELL
 ```shell
 amplify pull --sandboxId <sandboxId>
 ```
+
+Amplify created a GraphQL schema for our data model at `amplify/backend/api/amplifyDatasource/schema.graphql`:
+
+```graphql
+type Owner @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  email: AWSEmail!
+}
+
+enum PetType {
+  CAT
+  DOG
+}
+
+type Pet @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  description: String
+  photo: AWSURL!
+  petType: PetType!
+  owner: Owner @hasOne
+}
+```
+
+## Test Locally
 
 ### Create new Pet
 
