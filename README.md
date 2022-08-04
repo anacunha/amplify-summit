@@ -4,6 +4,8 @@
 
 Access the Amplify Sandbox at [https://sandbox.amplifyapp.com/](https://sandbox.amplifyapp.com/) to ceate your data model.
 
+![Data model on Amplify Studio](data-model.png)
+
 ## Test Locally
 
 ### Create a React app
