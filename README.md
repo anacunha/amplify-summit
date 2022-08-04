@@ -1,5 +1,11 @@
 # AWS Summit - Amplify App
 
+Today we will create an app called *Adopt a Pet*, where you can find your next best friend.
+
+It will looking something like this:
+
+![App screenshot showing pets for adoption](app.png)
+
 ## Data Modeling
 
 ### Create Data Model
