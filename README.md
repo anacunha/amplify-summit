@@ -163,7 +163,7 @@ Amplify.configure(awsconfig);
 
 Add authentication:
 
-````shell
+```shell
 amplify add auth
 ```
 
