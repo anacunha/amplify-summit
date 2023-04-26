@@ -140,7 +140,8 @@ export default App;
 | Sunny             | Enjoys baths and sunny days 🛁☀️                 | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Sunny.jpg             | DOG  |
 | Tempestade        | Adorable, but no one can tame her 🌪            | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Tempestade.jpg        | CAT  |
 | Theo              | A very sleepy dog                               | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Theo.jpg              | DOG  |
-| Twinkle           | The most adorable cat you will ever met         | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Twinkle.jpg           | CAT  |
+| Twinkle           | The most adorable cat you will ever meet         | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Twinkle.jpg           | CAT  |
+| Athena            | Faithful companion                               | https://raw.githubusercontent.com/anacunha/amplify-summit/main/pet-photos/Athena.jpg           | DOG  |
 
 ## User Interface
 
